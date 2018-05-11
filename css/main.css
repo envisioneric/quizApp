@@ -1,0 +1,68 @@
+body {
+	text-align: center;
+}
+
+#bg1 {
+	background: url("../img/bg/1.png") no-repeat fixed 0 0;
+	background-size: 30% 100%;
+}
+#bg2 {
+	background: url("../img/bg/1.png") no-repeat fixed 100% 0;
+	background-size: 30% 100%;
+}
+
+/*style for Header 1 Title*/
+.title {
+	text-align:center;
+	font-size:50px;
+	margin: 10px;
+	color: #E9C300;
+}
+
+/*style for correct answers*/
+.correct {
+	color:green;
+}
+
+/*style for incorrect answers*/
+.incorrect {
+	color:red;
+}
+
+.border {
+	padding: 0 29%;
+}
+.quiz {
+	border: 5px solid #E9C300;
+	background-color: #191919;
+}
+
+.form-group > input[type=text] {
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #ADD8E6;
+	border-color: white;
+}
+
+
+/*style for question divs*/
+.form-group > div {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #B19CD9;
+	margin: 10px 0;
+}
+
+.results {
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*style for h1 elements*/
+h1.correct, h1.incorrect {
+	width: 100%;
+}

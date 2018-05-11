@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- title -->
+    <title>HIMYM Quiz</title>
+
+    <!-- Viewport Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- characterset -->
+    <meta charset="utf-8">
+
+    <!-- All CSS -->
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendors/boot4/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="vendors/fa/web-fonts-with-css/css/fontawesome-all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+    <div class="background" id="bg1">
+        <div class="background" id="bg2">
+            <!-- Quiz Question Elements - Questions are added using Javascript -->
+            <div class="border">
+                <div class="quiz">
+                    <h1 class="title">How Well Do You Know About How I Met Your Mother?</h1>
+                    <form>
+                        <div class="form-group">
+                            <div id="question0"></div>
+                            <input id="answer0" type="text" class="form-control">
+                            <div id="question1"></div>
+                            <input id="answer1" type="text" class="form-control">
+                            <div id="question2"></div>
+                            <input id="answer2" type="text" class="form-control">
+                            <div id="question3"></div>
+                            <input id="answer3" type="text" class="form-control">
+                            <div id="question4"></div>
+                            <input id="answer4" type="text" class="form-control">
+                            <div id="question5"></div>
+                            <input id="answer5" type="text" class="form-control">
+                            <div id="question6"></div>
+                            <input id="answer6" type="text" class="form-control">
+                            <div id="question7"></div>
+                            <input id="answer7" type="text" class="form-control">
+                            <div id="question8"></div>
+                            <input id="answer8" type="text" class="form-control">
+                            <div id="question9"></div>
+                            <input id="answer9" type="text" class="form-control">
+                        </div>
+                        <br>
+                        <!-- Submit Button  -->
+                        <button type="button" onclick="testResults()" class="btn btn-primary btn-lg">See Results</button>
+                    </form>
+
+                    <!-- Display correct and incorrect totals -->
+                    <div class="results">
+                        <h1 class="correct">Correct: <span id="correct"></span></h1>
+                        <h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
